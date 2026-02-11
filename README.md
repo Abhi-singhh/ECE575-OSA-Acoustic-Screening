@@ -32,3 +32,52 @@ Weeks 1-2: Dataset collection and preparation, feature extraction implementation
 Weeks 3-4: Model training, hyperparameter tuning, and evaluation.
 Week 5: Risk scoring algorithm and visualisation dashboard development.
 Week 6: Final testing, documentation, and presentation preparation.
+
+
+# ECE575 - Acoustic Screening for OSA
+
+## 1. Project Overview
+
+## 2. Problem Statement
+
+## 3. Motivation
+
+## 4. Dataset Description
+
+## 5. Proposed Methodology
+- Audio preprocessing
+- Feature extraction
+- Classification models
+- Risk scoring system
+
+## 6. Tools and Technologies
+
+## 7. Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+
+## 8. Timeline
+
+## 9. Related Work
+
+(Discussion of 15–20 papers)
+
+## 10. Individual Objectives
+
+### Abhishek Kumar Singh
+Objective 1:
+PI1 (basic):
+...
+PI5 (advanced):
+
+### Nikhil Kumar Mukkuamala
+Objective 1:
+PI1 (basic):
+...
+PI5 (advanced):
+
+## 11. References
+(15–20 formatted citations)
