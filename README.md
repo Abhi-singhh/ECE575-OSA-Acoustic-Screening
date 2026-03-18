@@ -4,8 +4,11 @@ Group project of ECE575 on OSA-Acoustic-Screening topic.
 # ECE575 - Acoustic Screening for OSA
 
 ## 1. Project Overview
-Obstructive Sleep Apnea (OSA) is a serious sleep disorder where the airway repeatedly becomes blocked during sleep, causing breathing interruptions and reduced oxygen levels. These episodes create distinct acoustic patterns, including irregular snoring, high-frequency gasps, and prolonged silences lasting over 10 seconds.
-The goal of this project is to build an automated acoustic screening system that can distinguish between harmless snoring and apneic snoring, which indicates potential OSA. By analyzing overnight audio recordings, the system will generate a preliminary risk assessment that could help identify individuals who should seek formal clinical evaluation.
+Obstructive Sleep Apnea (OSA) is a serious medical condition where the airway becomes partially or completely blocked during sleep. This leads to reduced oxygen levels and disrupted sleep patterns. OSA is associated with several health risks, including cardiovascular disease, fatigue, and reduced quality of life.
+
+Traditional diagnosis methods such as polysomnography are expensive and require clinical supervision. Therefore, there is a growing interest in developing non-invasive and cost-effective screening methods. Acoustic analysis of snoring sounds offers a promising alternative, as snoring and apnea events produce distinct audio patterns.
+
+The goal of this project is to design a system that can automatically analyze audio recordings, detect apneic events, and estimate the risk of OSA. The system integrates signal processing, machine learning, and deep learning approaches to provide a preliminary screening tool.
 
 
 ## 2. Problem Statement
@@ -47,6 +50,13 @@ Week 5: Risk scoring algorithm and visualisation dashboard development.
 Week 6: Final testing, documentation, and presentation preparation.
 
 ## 9. Related Work
+Previous research has explored various approaches for detecting OSA using acoustic and physiological signals. Janott et al. (2019) introduced the Munich-Passau Snore Sound Corpus, which provides a structured dataset for snore classification. Khan and Choi (2018) used Hidden Markov Models (HMM) to detect apnea events from audio features.
+
+More recent studies have focused on deep learning methods. Convolutional Neural Networks (CNNs) have been successfully applied to audio classification tasks, particularly using spectrogram representations. MFCC-based features have also been widely used in speech and snore analysis due to their ability to capture perceptually relevant information.
+
+Several works have demonstrated that combining traditional features with deep learning improves classification performance. However, challenges remain in handling noisy environments and detecting long-duration apnea events.
+
+This project builds upon these approaches by combining classical ML models with CNN-based architectures and incorporating a risk scoring system.
 
 (Discussion of 15–20 papers)
 
@@ -107,5 +117,34 @@ PI5 (advanced): Add interactive filtering and zooming capabilities for detailed 
 
 
 ## 11. References
-Janott, C., Kurscheid, H., Heiser, C., Rohrmeier, C., Herzog, M., & Eilers, K. (2019). "Snoring classified: The Munich-Passau Snore Sound Corpus." Computers in Biology and Medicine, 94, 106-118.
-Khan, M. M., & Choi, K. S. (2018). "Automated detection of sleep apnea using hidden Markov model from audio features." Expert Systems with Applications, 115, 161-172.
+Janott et al., "Snoring classified," Computers in Biology and Medicine, 2019.
+
+Khan & Choi, "Automated detection of sleep apnea," Expert Systems, 2018.
+
+Abeyratne et al., "Snore-based diagnosis of OSA," IEEE TBME, 2013.
+
+Mesquita et al., "OSA detection using audio signals," 2015.
+
+Faust et al., "Deep learning for healthcare applications," 2018.
+
+Piczak, "Environmental sound classification with CNNs," 2015.
+
+Hershey et al., "CNN architectures for audio classification," 2017.
+
+Ntalampiras, "Audio classification using ML," 2015.
+
+Deng et al., "Speech processing using MFCC," 2013.
+
+Sainath et al., "Deep CNNs for speech recognition," 2015.
+
+Han et al., "Acoustic event detection," 2017.
+
+Bishop, "Pattern Recognition and Machine Learning," 2006.
+
+Goodfellow et al., "Deep Learning," 2016.
+
+Librosa documentation (audio processing library).
+
+Kaggle Snoring Dataset.
+
+MIT-BIH database documentation.
